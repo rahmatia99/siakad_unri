@@ -35,10 +35,85 @@
 
     </div>
 
-    <div class="wadah-tabel" style="margin-top: 30px; text-align: center; padding: 50px;">
-        <i class="fas fa-chart-line fa-3x" style="color: #ddd; margin-bottom: 20px;"></i>
-        <h2 style="color: #ccc;">Grafik Perkembangan Akan Muncul Di Sini</h2>
-        <p style="color: #999;">(Menunggu data dari Backend)</p>
+    <div class="grid-tabel">
+        
+        <div class="wadah-tabel">
+            <div class="judul-tabel">
+                <h3><i class="fas fa-user-graduate"></i> Mahasiswa Terbaru</h3>
+                <a href="mahasiswa/index.php" class="lihat-semua">Lihat Semua</a>
+            </div>
+            <table class="tabel-siakad">
+                <thead>
+                    <tr>
+                        <th>NIM</th>
+                        <th>Nama</th>
+                        <th>Prodi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>220101001</td>
+                        <td>Budi Setiadi</td>
+                        <td>Informatika</td>
+                    </tr>
+                    <tr>
+                        <td>220101002</td>
+                        <td>Ani Wijaya</td>
+                        <td>Sistem Informasi</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="wadah-tabel">
+            <div class="judul-tabel">
+                <h3><i class="fas fa-user-tie"></i> Dosen Aktif</h3>
+                <a href="dosen/index.php" class="lihat-semua">Lihat Semua</a>
+            </div>
+            <table class="tabel-siakad">
+                <thead>
+                    <tr>
+                        <th>NIDN</th>
+                        <th>Nama Dosen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>19850101xxx</td>
+                        <td>Dr. Heru Prasetyo</td>
+                    </tr>
+                    <tr>
+                        <td>19900202xxx</td>
+                        <td>Siska Amelia, M.T</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="wadah-tabel full-width">
+            <div class="judul-tabel">
+                <h3><i class="fas fa-book"></i> Daftar Mata Kuliah</h3>
+                <a href="matakuliah/index.php" class="lihat-semua">Lihat Semua</a>
+            </div>
+            <table class="tabel-siakad">
+                <thead>
+                    <tr>
+                        <th>Kode</th>
+                        <th>Nama Mata Kuliah</th>
+                        <th>SKS</th>
+                        <th>Semester</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>INF101</td>
+                        <td>Pemrograman Web Dasar</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 
     <?php include '../includes/footer.php'; ?>
